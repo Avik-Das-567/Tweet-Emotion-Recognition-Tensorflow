@@ -257,4 +257,4 @@ The notebook then visualizes a normalized confusion matrix with `sklearn.metrics
 
 ## Conclusion
 
-This project is a compact but technically rich example of tweet-level emotion recognition with TensorFlow. It covers the full path from raw text to evaluated neural classifier, including vocabulary control, padding strategy, label interpretation, recurrent modeling, early stopping, and post-training analysis. As a repository artifact, it serves both as an NLP learning project and as a clear reference implementation of multiclass text classification with Keras-based sequence models.
+This project is a compact but technically rich example of tweet-level emotion recognition with TensorFlow. It covers the full path from raw text to evaluated neural classifier, including vocabulary control, padding strategy, label interpretation, recurrent modeling, early stopping, and post-training analysis. It serves as both an NLP learning project and a clear reference implementation of multiclass text classification with Keras-based sequence models.
