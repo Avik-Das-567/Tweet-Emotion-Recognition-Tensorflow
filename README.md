@@ -2,7 +2,6 @@
 
 This repository documents a multiclass natural language processing project that classifies tweets into discrete emotional categories using TensorFlow and recurrent neural networks. The implementation is structured as a complete text-classification pipeline: dataset ingestion, tokenization, sequence preprocessing, bidirectional LSTM modeling, training, and evaluation.
 
-
 The model is trained to predict one of six emotions from tweet text:
 
 - `sadness`
