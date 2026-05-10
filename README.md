@@ -186,7 +186,7 @@ model.compile(
 )
 ```
 
-Important implementation note: the notebook includes a `model.summary()` cell, but the captured summary output shows the layers as unbuilt with zero parameters. For a technical description of the project, the architecture should therefore be taken from the source code definition above rather than from that unbuilt summary snapshot.
+The architecture above is summarized from the model definition in the notebook. The captured `model.summary()` output was generated before the model was fully built, so the source definition is the most reliable description of the network.
 
 ## Training Configuration
 
