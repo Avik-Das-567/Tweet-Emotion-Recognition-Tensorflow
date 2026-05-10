@@ -1,6 +1,7 @@
 # Tweet Emotion Recognition with TensorFlow
 
-This repository documents a multiclass natural language processing project that classifies tweets into discrete emotional categories using TensorFlow and recurrent neural networks. The work follows a guided deep learning exercise, but the implementation itself is structured as a complete text-classification pipeline: dataset ingestion, tokenization, sequence preprocessing, bidirectional LSTM modeling, training, and evaluation.
+This repository documents a multiclass natural language processing project that classifies tweets into discrete emotional categories using TensorFlow and recurrent neural networks. The implementation is structured as a complete text-classification pipeline: dataset ingestion, tokenization, sequence preprocessing, bidirectional LSTM modeling, training, and evaluation.
+
 
 The model is trained to predict one of six emotions from tweet text:
 
@@ -62,7 +63,7 @@ One setup cell installs and imports Hugging Face's legacy `nlp` package:
 import nlp
 ```
 
-However, the actual dataset loading logic in the notebook uses the modern `datasets` package through `datasets.load_dataset('emotion')`. This is worth noting because older guided materials sometimes retain the earlier package name even when the active workflow uses `datasets`.
+However, the actual dataset loading logic in the notebook uses the modern `datasets` package through `datasets.load_dataset('emotion')`. This is worth noting because some older TensorFlow/NLP examples retain the earlier package name even when the active workflow uses `datasets`.
 
 ## Data Preparation and Preprocessing Pipeline
 
@@ -257,4 +258,4 @@ The notebook then visualizes a normalized confusion matrix with `sklearn.metrics
 
 ## Conclusion
 
-This project is a compact but technically rich example of tweet-level emotion recognition with TensorFlow. It covers the full path from raw text to evaluated neural classifier, including vocabulary control, padding strategy, label interpretation, recurrent modeling, early stopping, and post-training analysis. It serves as both an NLP learning project and a clear reference implementation of multiclass text classification with Keras-based sequence models.
+This project is a compact but technically rich example of tweet-level emotion recognition with TensorFlow. It covers the full path from raw text to evaluated neural classifier, including vocabulary control, padding strategy, label interpretation, recurrent modeling, early stopping, and post-training analysis. It serves as a clear reference implementation of multiclass text classification with Keras-based sequence models.
